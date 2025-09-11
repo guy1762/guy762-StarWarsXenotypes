@@ -242,7 +242,7 @@
 			<colorType>Skin</colorType>
 			<shaderTypeDef>CutoutComplex</shaderTypeDef>
 			<useRottenColor>true</useRottenColor>
-			<useSkinShader>true</useSkinShader>
+			<!-- <useSkinShader>true</useSkinShader> -->
 			<rotDrawMode>Fresh, Rotting</rotDrawMode>
 			<texPaths>
 			  <li>Pawn/HeadAttachments/mimbanese/RidgedBrow</li>
@@ -280,7 +280,7 @@
 			<colorType>Skin</colorType>
 			<shaderTypeDef>CutoutComplex</shaderTypeDef>
 			<useRottenColor>true</useRottenColor>
-			<useSkinShader>true</useSkinShader>
+			<!-- <useSkinShader>true</useSkinShader> -->
 			<rotDrawMode>Fresh, Rotting</rotDrawMode>
 			<texPaths>
 			  <li>Pawn/HeadAttachments/nikto/facespines</li>

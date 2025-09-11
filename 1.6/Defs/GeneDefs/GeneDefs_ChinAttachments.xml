@@ -84,7 +84,7 @@
 			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
 			<texPath>Pawn/HeadAttachments/quarren/squidmouth</texPath>
 			<narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
-			<useSkinShader>true</useSkinShader>
+			<!-- <useSkinShader>true</useSkinShader> -->
 			<useRottenColor>true</useRottenColor>
 			<colorType>Skin</colorType>
 			<shaderTypeDef>CutoutComplex</shaderTypeDef>
@@ -114,7 +114,7 @@
 			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
 			<texPath>Pawn/HeadAttachments/aqualish/HugeTusks</texPath>
 			<narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
-			<useSkinShader>true</useSkinShader>
+			<!-- <useSkinShader>true</useSkinShader> -->
 			<useRottenColor>true</useRottenColor>
 			<colorType>Skin</colorType>
 			<shaderTypeDef>CutoutComplex</shaderTypeDef>
@@ -150,7 +150,7 @@
 			<texPath>Pawn/HeadAttachments/selkath/fishyjowls_male</texPath>
 			<texPathFemale>Pawn/HeadAttachments/selkath/fishyjowls_female</texPathFemale>
 			<narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
-			<useSkinShader>true</useSkinShader>
+			<!-- <useSkinShader>true</useSkinShader> -->
 			<useRottenColor>true</useRottenColor>
 			<colorType>Skin</colorType>
 			<shaderTypeDef>CutoutComplex</shaderTypeDef>

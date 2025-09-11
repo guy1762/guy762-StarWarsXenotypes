@@ -159,7 +159,7 @@
 			<texPath>Pawn/HeadAttachments/keldor/susmouth</texPath>
 			<narrowCrownHorizontalOffset>0.03</narrowCrownHorizontalOffset>
 			<shaderTypeDef>CutoutComplex</shaderTypeDef>
-			<useSkinShader>true</useSkinShader>
+			<!-- <useSkinShader>true</useSkinShader> -->
 			<useRottenColor>true</useRottenColor>
 			<colorType>Skin</colorType>
 			<parentTagDef>Head</parentTagDef>

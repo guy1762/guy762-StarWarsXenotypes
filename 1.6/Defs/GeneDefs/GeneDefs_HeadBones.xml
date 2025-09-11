@@ -148,7 +148,7 @@
 			<parentTagDef>Head</parentTagDef>
 			<colorType>Hair</colorType>
 			<useRottenColor>true</useRottenColor>
-			<useSkinShader>true</useSkinShader>
+			<!-- <useSkinShader>true</useSkinShader> -->
 			<shaderTypeDef>CutoutComplex</shaderTypeDef>
 			<rotDrawMode>Fresh, Rotting</rotDrawMode>
 			<drawData>
@@ -209,7 +209,7 @@
 			</texPaths>
 			<colorType>Skin</colorType>
 			<useRottenColor>true</useRottenColor>
-			<useSkinShader>true</useSkinShader>
+			<!-- <useSkinShader>true</useSkinShader> -->
 			<shaderTypeDef>CutoutComplex</shaderTypeDef>
 			<parentTagDef>Head</parentTagDef>
 			<drawData>

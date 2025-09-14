@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<GeneDef ParentName="GeneEyeColor">
+		<defName>guy762_AbilityGene_forcesight_TFS</defName>
+		<label>eyeless seer</label>
+		<labelShortAdj>eyeless</labelShortAdj>
+		<description>Carriers of this gene have evolved beyond the need to grow eyes; they see through the Force.</description>
+		<descriptionHyperlinks>
+		  <AbilityDef>guy762_GeneAbility_forcesight</AbilityDef>
+		</descriptionHyperlinks>
+		<!--iconPath>UI/Icons/Genes/Gene_Blindness</iconPath-->
+		<iconPath>UI/Icons/KotORII_Power_Force_Sight</iconPath>
+		<displayOrderInCategory>795</displayOrderInCategory>
+		<biostatCpx>6</biostatCpx>
+		<biostatMet>3</biostatMet>
+		<renderNodeProperties>
+		  <li Class="PawnRenderNodeProperties_Eye">
+			<texPath>Pawn/HeadAttachments/NoEyes/NoEyes</texPath>
+			<anchorTag>RightEye</anchorTag>
+			<colorType>Skin</colorType>
+			<useRottenColor>true</useRottenColor>
+			<useSkinShader>true</useSkinShader>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<parentTagDef>Head</parentTagDef>
+			<drawSize>0.2</drawSize>
+			<side>Right</side>
+			<drawData>
+			  <defaultData>
+				<layer>55</layer>
+				<offset>(0, 0, -0.25)</offset>
+			  </defaultData>
+			</drawData>
+		  </li>
+		  <li Class="PawnRenderNodeProperties_Eye">
+			<texPath>Pawn/HeadAttachments/NoEyes/NoEyes</texPath>
+			<anchorTag>LeftEye</anchorTag>
+			<colorType>Skin</colorType>
+			<useRottenColor>true</useRottenColor>
+			<useSkinShader>true</useSkinShader>
+			<rotDrawMode>Fresh, Rotting</rotDrawMode>
+			<parentTagDef>Head</parentTagDef>
+			<drawSize>0.2</drawSize>
+			<side>Left</side>
+			<drawData>
+			  <defaultData>
+				<layer>55</layer>
+				<offset>(0, 0, -0.25)</offset>
+				<flip>true</flip>
+			  </defaultData>
+			  <dataWest>
+				<flip>false</flip>
+			  </dataWest>
+			</drawData>
+		  </li>
+		</renderNodeProperties>
+		<abilities>
+		  <li>guy762_GeneAbility_forcesight</li>
+		</abilities>
+		<exclusionTags>
+            <!--<li>ShootingAccuracy</li>-->
+            <li>Turn_Exclusion_NightVision</li>
+            <li>Turn_Exclusion_NearSighted</li>
+            <li>Turn_Exclusion_Blindness</li>
+        </exclusionTags>
+        <capMods>
+            <li>
+                <capacity>Sight</capacity>
+                <offset>-1</offset>
+            </li>
+        </capMods>
+		<prerequisite>guy762_statgene_force</prerequisite>
+	  </GeneDef>
+
+
+
+
+
+
+
+
+
+
+  <AbilityDef MayRequire="Ludeon.RimWorld.Royalty">
+    <defName>guy762_GeneAbility_forcesight</defName>
+    <label>force blindsight</label>
+    <description>A Miraluka's natural ability to see using the Force. Lasts for one day before the caster must re-channel the Force and cast again.</description>
+    <descriptionHyperlinks>
+		<HediffDef>guy762_hediff_blindsight</HediffDef>
+	</descriptionHyperlinks>
+	<iconPath>UI/Icons/KotORII_Power_Force_Sight</iconPath>
+	<!-- <abilityClass>Psycast</abilityClass> -->
+    <!-- <category>Psychic</category> -->
+	<warmupSound>PsycastCastLoop</warmupSound>
+	<!-- <level>1</level> -->
+    <cooldownTicksRange>300</cooldownTicksRange>
+    <hostile>false</hostile>
+	<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+	
+	<showCastingProgressBar>true</showCastingProgressBar>
+	<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+	<showWhenDrafted>true</showWhenDrafted>
+	<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+	
+	
+	<aiCanUse>true</aiCanUse>
+	<targetRequired>false</targetRequired>
+    <displayOrder>301</displayOrder>
+    <statBases>
+      <!-- <Ability_EntropyGain>15</Ability_EntropyGain> -->
+      <!-- <Ability_PsyfocusCost>0.03</Ability_PsyfocusCost> -->
+      <Ability_Duration>500</Ability_Duration>
+    </statBases>
+	<hotKey>Misc12</hotKey>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+	  <warmupTime>10</warmupTime>
+      <drawAimPie>False</drawAimPie>
+      <range>-1</range>
+	  <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>guy762_hediff_blindsight</hediffDef>
+        <psychic>True</psychic>
+		<replaceExisting>true</replaceExisting>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>PsycastPsychicEffect</fleckDef>
+		<sound>kotorsound_force_JAsight</sound>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  
+  
+  <HediffDef>
+    <defName>guy762_hediff_blindsight</defName>
+    <label>force blindsight</label>
+    <description>Seeing through the force.</description>
+	<defaultLabelColor>(7,255,131)</defaultLabelColor> <!-- KotOR 2 green -->
+    <hediffClass>HediffWithComps</hediffClass>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.80</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+	<comps>
+	  <!--2,500 ticks per hour in game-->
+	  <li Class="HediffCompProperties_Disappears">
+		<!--disappearsAfterTicks>1000</disappearsAfterTicks-->
+		<showRemainingTime>True</showRemainingTime>
+	  </li>
+	</comps>
+  </HediffDef>
+  
+  
+</Defs>

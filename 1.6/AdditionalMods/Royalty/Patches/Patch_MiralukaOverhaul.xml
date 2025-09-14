@@ -12,7 +12,7 @@
 		<li Class="PatchOperationReplace">
 			<xpath>Defs/XenotypeDef[defName="guy762_xenotype_miraluka"]/genes/li[3]</xpath>
 			<value>
-				<li>guy762_AbilityGene_forcesight</li>
+				<li>guy762_AbilityGene_forcesight_TFS</li>
 			</value>
 		</li>
 		<li Class="PatchOperationRemove">

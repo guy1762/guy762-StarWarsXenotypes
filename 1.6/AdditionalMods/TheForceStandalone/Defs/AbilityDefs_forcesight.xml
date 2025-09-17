@@ -110,7 +110,8 @@
     <statBases>
       <!-- <Ability_EntropyGain>15</Ability_EntropyGain> -->
       <!-- <Ability_PsyfocusCost>0.03</Ability_PsyfocusCost> -->
-      <Ability_Duration>500</Ability_Duration>
+	  <Force_AbilityForcePoolCost>1</Force_AbilityForcePoolCost>
+      <!-- <Ability_Duration>500</Ability_Duration> -->
     </statBases>
 	<hotKey>Misc12</hotKey>
     <verbProperties>
@@ -123,13 +124,22 @@
       </targetParams>
     </verbProperties>
     <comps>
-      <li Class = "CompProperties_AbilityGiveHediff">
-        <compClass>CompAbilityEffect_GiveHediff</compClass>
-        <hediffDef>guy762_hediff_blindsight</hediffDef>
-        <psychic>True</psychic>
-		<replaceExisting>true</replaceExisting>
-        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+      <!-- <li Class = "CompProperties_AbilityGiveHediff"> -->
+        <!-- <compClass>CompAbilityEffect_GiveHediff</compClass> -->
+        <!-- <hediffDef>guy762_hediff_blindsight</hediffDef> -->
+		<!-- <replaceExisting>true</replaceExisting> -->
+        <!-- <durationMultiplier>PsychicSensitivity</durationMultiplier> -->
+      <!-- </li> -->
+	  
+	  <li Class = "CompProperties_AbilityGiveHediff">
+		<compClass>TheForce_Standalone.CompAbilityEffect_GiveHediffToSelf</compClass>
+		<hediffDef>guy762_hediff_blindsight</hediffDef>
+		<durationMultiplier>PsychicSensitivity</durationMultiplier>
+		<psychic>false</psychic>
+		<applicableToMechs>False</applicableToMechs>
+		<onlyApplyToSelf>true</onlyApplyToSelf>
       </li>
+	  
       <li Class="CompProperties_AbilityFleckOnTarget">
         <fleckDef>PsycastPsychicEffect</fleckDef>
 		<sound>kotorsound_force_JAsight</sound>
@@ -158,10 +168,16 @@
     </stages>
 	<comps>
 	  <!--2,500 ticks per hour in game-->
-	  <li Class="HediffCompProperties_Disappears">
-		<!--disappearsAfterTicks>1000</disappearsAfterTicks-->
-		<showRemainingTime>True</showRemainingTime>
-	  </li>
+	  <!-- <li Class="HediffCompProperties_Disappears"> -->
+		<!-- <showRemainingTime>True</showRemainingTime> -->
+	  <!-- </li> -->
+	  
+		<li Class="TheForce_Standalone.HediffComps.HediffCompProperties_ChanneledAbility">
+			<fpCostPerTick>0.001</fpCostPerTick>
+			<fpCostMultiplier>PsychicSensitivity</fpCostMultiplier>
+			<severityIncreasePerTick>0.000001</severityIncreasePerTick>
+			<!-- <inverseStat>true</inverseStat> -->
+		</li>
 	</comps>
   </HediffDef>
   

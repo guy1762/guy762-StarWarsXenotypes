@@ -733,8 +733,8 @@
   <XenotypeDef>
     <defName>guy762_xenotype_keldor</defName>
     <label>Kel Dor</label>
-    <description>.</description>
-    <descriptionShort>.</descriptionShort>
+    <description>A race of not the most pleasant-looking creatures, hailing from the planet Dorin in the Expansion Region. Having grown up in an atmosphere filled with helium and dorin gas, they are forced to always wear anti-oxidant masks to avoid oxygen poisoning. They are born with a heightened sensitivity to the Force, thanks to special organs in their heads.</description>
+    <descriptionShort>A race of not the most pleasant-looking creatures, hailing from the planet Dorin in the Expansion Region. Having grown up in an atmosphere filled with helium and dorin gas, they are forced to always wear anti-oxidant masks to avoid oxygen poisoning. They are born with a heightened sensitivity to the Force, thanks to special organs in their heads.</descriptionShort>
     <inheritable>true</inheritable>
 	<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon5</iconPath>
 	<nameMaker>KoTOR_NamerDuros</nameMaker>
@@ -790,8 +790,8 @@
   <XenotypeDef>
     <defName>guy762_xenotype_kubaz</defName>
     <label>Kubaz</label>
-    <description>e</description>
-    <descriptionShort>e</descriptionShort>
+    <description>Kubaz are a species originating from the planet Kubindi. Their characteristic external feature is a special proboscis, through which they often feed on insects and other small, meaty food. Thanks to their natural qualities, the Kubaz are benevolent and courteous individuals, as well as such great art lovers that they are willing to commit break-ins and theft for its sake.</description>
+    <descriptionShort>Kubaz are a species originating from the planet Kubindi. Their characteristic external feature is a special proboscis, through which they often feed on insects and other small, meaty food. Thanks to their natural qualities, the Kubaz are benevolent and courteous individuals, as well as such great art lovers that they are willing to commit break-ins and theft for its sake.</descriptionShort>
     <inheritable>true</inheritable>
 	<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon6</iconPath>
 	<nameMaker>KoTOR_NamerKubaz</nameMaker>
@@ -886,8 +886,8 @@
   <XenotypeDef ParentName="guy762_xenotype_humanheadbase">
 		<defName>guy762_xenotype_mimbanese</defName>
 		<label>Mimbanese</label>
-		<description>e</description>
-		<descriptionShort>e</descriptionShort>
+		<description>Hailing from the depths of the planet Mimban, the red-skinned Mimbanese evolved for a long time in complete darkness, adapting their eyesight to low-light conditions. Despite their technological primitiveness, as well as a natural aggressiveness, they are capable, if not of creating their own, then of effectively adapting foreign technologies to their needs.</description>
+		<descriptionShort>Hailing from the depths of the planet Mimban, the red-skinned Mimbanese evolved for a long time in complete darkness, adapting their eyesight to low-light conditions. Despite their technological primitiveness, as well as a natural aggressiveness, they are capable, if not of creating their own, then of effectively adapting foreign technologies to their needs.</descriptionShort>
 		<inheritable>true</inheritable>
 		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon1</iconPath>
 		<nameMaker>KoTOR_NamerMimbanese</nameMaker>
@@ -956,8 +956,8 @@
   <XenotypeDef>
 		<defName>guy762_xenotype_moncal</defName>
 		<label>Mon Calamari</label>
-		<description>e</description>
-		<descriptionShort>e</descriptionShort>
+		<description>Mon Calamari are a race of intelligent amphibians from the planet Dac. Besides their obvious external distinctions, such as a fish-like head, webbed hands, and the presence of gills, the Mon Calamari are known throughout the galaxy for their tenacity both in battle and in the practice of crafts, such as building starships.</description>
+		<descriptionShort>Mon Calamari are a race of intelligent amphibians from the planet Dac. Besides their obvious external distinctions, such as a fish-like head, webbed hands, and the presence of gills, the Mon Calamari are known throughout the galaxy for their tenacity both in battle and in the practice of crafts, such as building starships.</descriptionShort>
 		<inheritable>true</inheritable>
 		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon1</iconPath>
 		<nameMaker>KoTOR_NamerQuarren</nameMaker>

@@ -163,6 +163,30 @@
 		  <li>Male_SelkathHead</li>
 		  <li>Female_SelkathHead</li>
 		</forcedHeadTypes>
+		
+		<modExtensions>
+			<li Class="BigAndSmall.PawnExtension">
+				<headPaths>
+					<Female>Pawn/HeadType/selkath/fishy_female</Female>
+					<Male>Pawn/HeadType/selkath/fishy_male</Male>
+				</headPaths>
+				
+				<headMaterial>
+				  <shader>CutoutComplex</shader>
+				  <overrideDesiccated>false</overrideDesiccated>
+				  <colorA>
+					<skinColor>true</skinColor>
+					<altDefs><li>BS_CustomGlobalA</li></altDefs>
+					<alts>
+					  <li>
+						<triggers><li>Dead</li></triggers>
+						<color>(0.2,0.05,0)</color>
+					  </li>
+					</alts>
+				  </colorA>
+				</headMaterial>
+			</li>
+		</modExtensions>
 	  </GeneDef>
 	  
 	  <GeneDef ParentName="GeneJawBase">
@@ -191,6 +215,30 @@
 		<exclusionTags>
 		  <li>EyeColor</li>
 		</exclusionTags>
+		
+		<modExtensions>
+			<li Class="BigAndSmall.PawnExtension">
+				<headPaths>
+					<Female>Pawn/HeadType/gand/gand</Female>
+					<Male>Pawn/HeadType/gand/gand</Male>
+				</headPaths>
+				
+				<headMaterial>
+				  <shader>CutoutComplex</shader>
+				  <overrideDesiccated>false</overrideDesiccated>
+				  <colorA>
+					<skinColor>true</skinColor>
+					<altDefs><li>BS_CustomGlobalA</li></altDefs>
+					<alts>
+					  <li>
+						<triggers><li>Dead</li></triggers>
+						<color>(0.2,0.05,0)</color>
+					  </li>
+					</alts>
+				  </colorA>
+				</headMaterial>
+			</li>
+		</modExtensions>
 	  </GeneDef>
 	  
 	  

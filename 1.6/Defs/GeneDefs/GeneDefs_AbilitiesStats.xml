@@ -293,6 +293,21 @@
         </exclusionTags>
         <biostatMet>-1</biostatMet>
     </GeneDef>
+	
+	<GeneDef>
+        <defName>Lee_traitgene_GreatMemory</defName>
+        <label>great memory</label>
+        <description>This person possesses an exceptional and highly efficient memory, allowing for rapid learning and perfect recall.</description>
+        <iconPath>UI/Icons/Genes/Gene_FastLearning</iconPath>
+        <displayCategory>guy762_SWparts_Category</displayCategory>
+        <biostatCpx>1</biostatCpx>
+        <displayOrderInCategory>782</displayOrderInCategory>
+        <forcedTraits>
+            <li>
+                <def>GreatMemory</def>
+            </li>
+        </forcedTraits>
+    </GeneDef>
 	  
 	  
 	  

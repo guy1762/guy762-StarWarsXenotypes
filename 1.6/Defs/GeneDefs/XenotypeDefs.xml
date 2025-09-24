@@ -466,7 +466,7 @@
 		<inheritable>true</inheritable>
 		<iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon8</iconPath>
 		<combatPowerFactor>1.1</combatPowerFactor>
-		<nameMaker>KoTOR_NamerGand</nameMaker>
+		<!-- <nameMaker>KoTOR_NamerGand</nameMaker> -->
 		<chanceToUseNameMaker>1</chanceToUseNameMaker>
 		<genes>
 			<li>BS_Fast_TotalHealing</li>
@@ -697,6 +697,33 @@
 		<li>AptitudeRemarkable_Crafting</li>
 	</genes>
   </XenotypeDef>
+  
+	<XenotypeDef ParentName="guy762_xenotype_humanheadbase">
+        <defName>Lee_xenotype_kage</defName>
+        <label>Kage</label>
+        <description>Hailing from the high-pressure caverns of Quarzite, the Kage are a near-Human species renowned for their striking beauty, prodigious athleticism, and lightning-fast reflexes. Their culture is defined by a constant martial struggle against the surface-dwelling Belugans, forging them into elite, stealthy warriors from a young age. This harsh upbringing results in a spirited and dedicated people, known across the galaxy as tireless fighters, skilled martial artists, and effective mercenaries. They possess the rare trait of forming memories from the moment of birth, leading to profound lifelong bonds.</description>
+        <descriptionShort>Elite subterranean warriors known for their beauty, martial prowess, and perfect recall.</descriptionShort>
+        <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+        <inheritable>true</inheritable>
+        <combatPowerFactor>1.4</combatPowerFactor>
+        <genes>
+            <li>Beauty_Beautiful</li>
+            <!-- <li>MeleeDamage_Strong</li> -->
+			<li>guy762_statgene_metabolismcheat</li>
+			<li>UVSensitivity_Intense</li>
+            <li>MoveSpeed_Quick</li>
+            <li>Turn_Gene_Duelist</li>
+            <li>Beard_NoBeardOnly</li>
+            <li>guy762_Eyes_Green</li>
+            <li>GS_Eyes_Yellow</li>
+            <li>Hair_InkBlack</li>
+            <li>Hair_SnowWhite</li>
+            <li>Hair_Blonde</li>
+            <li>Skin_SheerWhite</li>
+            <li>Body_Standard</li>
+            <li>Lee_traitgene_GreatMemory</li>
+        </genes>
+    </XenotypeDef>
   
   <XenotypeDef>
     <defName>guy762_xenotype_kaleesh</defName>

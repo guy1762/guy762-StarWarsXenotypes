@@ -478,26 +478,70 @@
 		  </li>
 		</stages>
 		<renderNodeProperties>
-		  <li>
-			<nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
-			<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
-			<texPaths>
-			  <li>Pawn/HeadAttachments/gand/mask_zuckuss</li>
-			  <li>Pawn/HeadAttachments/gand/mask_yuun</li>
-			</texPaths>
-			<parentTagDef>Head</parentTagDef>
-			<skipFlag>Beard</skipFlag>
-			<drawData>
-			  <defaultData>
-				<layer>67</layer>
-			  </defaultData>
-			</drawData>
-		  </li>
+			<li Class="BigAndSmall.PawnRenderingProps_Ultimate">
+				<nodeClass>BigAndSmall.PawnRenderNode_Ultimate</nodeClass>
+				<workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+				<parentTagDef>Head</parentTagDef>
+				<!-- <shader>BS_CutoutThreeColor</shader> -->
+				<baseLayer>67</baseLayer>
+				<!-- <autoBodyTypePaths>true</autoBodyTypePaths> -->
+				<conditionalGraphics>
+					<texturePaths>
+						<!-- <li>Pawn/HeadAttachments/gand/mask_Zuckuss</li> -->
+						<li>Pawn/HeadAttachments/gand/mask_KotOR2</li>
+						<li>Pawn/HeadAttachments/gand/mask_yuun</li>
+					</texturePaths>
+					<altDefs><li>guy762_GandMaskCustomization_default</li><li>guy762_GandMaskCustomization_yuun</li><li>guy762_GandMaskCustomization_zuckuss</li></altDefs>
+				</conditionalGraphics>
+				<drawData> <defaultData> <layer>67</layer> </defaultData> </drawData>
+			</li>
+			
+			<!-- <li> -->
+				<!-- <nodeClass>PawnRenderNode_AttachmentHead</nodeClass> -->
+				<!-- <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass> -->
+				<!-- <texPaths> -->
+				  <!-- <li>Pawn/HeadAttachments/gand/mask_Zuckuss</li> -->
+				  <!-- <li>Pawn/HeadAttachments/gand/mask_KotOR2</li> -->
+				  <!-- <li>Pawn/HeadAttachments/gand/mask_yuun</li> -->
+				<!-- </texPaths> -->
+				<!-- <parentTagDef>Head</parentTagDef> -->
+				<!-- <skipFlag>Beard</skipFlag> -->
+				<!-- <drawData> -->
+				  <!-- <defaultData> -->
+					<!-- <layer>67</layer> -->
+				  <!-- </defaultData> -->
+				<!-- </drawData> -->
+			<!-- </li> -->
 		</renderNodeProperties>
 	</HediffDef>
 	
 	
+	<BigAndSmall.GraphicSetDef>
+		<defName>guy762_GandMaskCustomization_default</defName>
+		<conditionalGraphics>
+			<triggerFlags><whitelist><guy762AltTag_GandMaskDefault/></whitelist></triggerFlags>
+			<texturePaths>
+				<li>Pawn/HeadAttachments/gand/mask_KotOR2</li>
+				<li>Pawn/HeadAttachments/gand/mask_yuun</li>
+			</texturePaths>
+		</conditionalGraphics>
+	</BigAndSmall.GraphicSetDef>
 	
+	<BigAndSmall.GraphicSetDef>
+		<defName>guy762_GandMaskCustomization_yuun</defName>
+		<conditionalGraphics>
+			<triggerFlags><whitelist><guy762AltTag_Yuun/></whitelist></triggerFlags>
+			<texturePaths><li>Pawn/HeadAttachments/gand/mask_yuun</li></texturePaths>
+		</conditionalGraphics>
+	</BigAndSmall.GraphicSetDef>
+	
+	<BigAndSmall.GraphicSetDef>
+		<defName>guy762_GandMaskCustomization_zuckuss</defName>
+		<conditionalGraphics>
+			<triggerFlags><whitelist><guy762AltTag_Zuckuss/></whitelist></triggerFlags>
+			<texturePaths><li>Pawn/HeadAttachments/gand/mask_Zuckuss</li></texturePaths>
+		</conditionalGraphics>
+	</BigAndSmall.GraphicSetDef>
 	
 	
 	

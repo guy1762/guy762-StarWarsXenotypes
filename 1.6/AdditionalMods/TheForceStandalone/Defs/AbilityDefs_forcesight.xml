@@ -85,7 +85,7 @@
   <AbilityDef MayRequire="Ludeon.RimWorld.Royalty">
     <defName>guy762_GeneAbility_forcesight</defName>
     <label>force blindsight</label>
-    <description>A Miraluka's natural ability to see using the Force. Lasts for one day before the caster must re-channel the Force and cast again.</description>
+    <description>A Miraluka's natural ability to see using the Force. Casting this will slowly drain Force points while the caster drafted, and won't drain any while they are not.</description>
     <descriptionHyperlinks>
 		<HediffDef>guy762_hediff_blindsight</HediffDef>
 	</descriptionHyperlinks>

@@ -295,6 +295,8 @@
 			  <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 			  <HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 			  <DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+			  
+			  <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
 			</statOffsets>
 		  </li>
 		</stages>
@@ -474,6 +476,8 @@
 			  <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 			  <HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 			  <DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+			  
+			  <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
 			</statOffsets>
 		  </li>
 		</stages>

@@ -321,7 +321,8 @@
 		<li>Body_Standard</li>
 		<li>Body_Thin</li>
 		<li>Body_Hulk</li>
-		<li>AptitudePoor_Shooting</li>
+		<!-- <li>AptitudePoor_Shooting</li> -->
+		<li>MaxTemp_SmallDecrease</li>
 		<li>AptitudeRemarkable_Melee</li>
 		<li>AptitudeStrong_Crafting</li>
 		<li>AptitudePoor_Social</li>

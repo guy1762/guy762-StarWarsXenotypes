@@ -33,7 +33,7 @@
 		<li IfModNotActive="RedMattis.BigSmall.Core">1.6/AdditionalMods/BigAndSmall</li>
 		<li IfModNotActive="guy762.MM.KotORCore">1.6/AdditionalMods/_NO_KotORCore</li>
 		
-		<li IfModActive="guy762.KotORWeapons">1.6/AdditionalMods/KotORWeapons</li>
+		<!-- <li IfModActive="guy762.KotORWeapons">1.6/AdditionalMods/KotORWeapons</li> -->
 		<li IfModActive="lee.theforce.standalone">1.6/AdditionalMods/TheForceStandalone</li>
 		<li IfModActive="VanillaExpanded.VPsycastsE">1.6/AdditionalMods/VPE</li>
 		<li IfModActive="pathfinding.framework">1.6/AdditionalMods/PathfindingFramework</li>

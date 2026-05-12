@@ -118,6 +118,7 @@
 	  <tags>
 		<li>SaV_apparel_mission</li>
 		<li>KotORHeadband_twilek</li>
+		<li>SWCPSpecificApparelItem_CuteTwilekHeadband</li>
 	  </tags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -258,6 +259,7 @@
 	  <tags>
 		<li>SE_apparel_yuthura</li>
 		<li>KotORHeadband_twilek</li>
+		<li>SWCPSpecificApparelItem_OrnateTwilekHeadband</li>
 	  </tags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
@@ -354,6 +356,7 @@
 	  <tags>
 		<!-- <li>SE_apparel_yuthura</li> -->
 		<li>KotORHeadband_twilek</li>
+		<li>SWCPSpecificApparelItem_UtilitarianTwilekHeadband</li>
 	  </tags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>

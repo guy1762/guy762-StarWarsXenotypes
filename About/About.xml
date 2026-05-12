@@ -57,5 +57,7 @@
 	<loadBefore>
 		<li>guy762.MM.KotORCore</li>
 		<li>guy762.KotORWeapons</li>
+		
+		<li>SWCP.guy762.RR.SWCore</li>
 	</loadBefore>
 </ModMetaData>

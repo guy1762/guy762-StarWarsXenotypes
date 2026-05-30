@@ -67,7 +67,7 @@
 			<applyToTarget>false</applyToTarget>
 		  </li>
 		  <li Class="CompProperties_AbilityFleckOnTarget">
-			<sound>kotorsound_cloak</sound>
+			<sound>SWXsound_cloak</sound>
 		  </li>
 		</comps>
 	</AbilityDef>
@@ -112,7 +112,7 @@
 			<!--durationMultiplier>HuntingStealth</durationMultiplier-->
 		  </li>
 		  <li Class="CompProperties_AbilityFleckOnTarget">
-			<sound>kotorsound_cloak</sound>
+			<sound>SWXsound_cloak</sound>
 			<fleckDef>PsycastPsychicEffect</fleckDef>
 		  </li>
 		</comps>

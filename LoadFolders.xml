@@ -31,7 +31,9 @@
 		<li IfModActive="Ludeon.RimWorld.Royalty">1.6/AdditionalMods/Royalty</li>
 		
 		<li IfModNotActive="RedMattis.BigSmall.Core">1.6/AdditionalMods/BigAndSmall</li>
-		<li IfModNotActive="guy762.MM.KotORCore">1.6/AdditionalMods/_NO_KotORCore</li>
+		
+		<!-- <li IfModNotActive="guy762.MM.KotORCore">1.6/AdditionalMods/_NO_KotORCore</li> -->
+		<!-- <li IfModNotActive="SWCP.guy762.RR.SWCore">1.6/AdditionalMods/_NO_KotORCore</li> -->
 		
 		<!-- <li IfModActive="guy762.KotORWeapons">1.6/AdditionalMods/KotORWeapons</li> -->
 		<li IfModActive="lee.theforce.standalone">1.6/AdditionalMods/TheForceStandalone</li>
